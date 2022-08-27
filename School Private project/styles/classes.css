@@ -1,0 +1,292 @@
+.priority {
+  width: 1440px;
+  margin: 0 auto;
+  background: #5855e7;
+  padding-top: 73px;
+  display: flex;
+  flex-direction: column;
+}
+.priorityTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.priorityCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+.priorityCard {
+  width: 380px;
+  height: 400px;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 20px 0;
+}
+.priorityCard .cardImage {
+  width: 210px;
+  height: 210px;
+  margin: 0 auto 43px;
+  border: 7px solid #ffffff;
+  border-radius: 50%;
+}
+.priorityCard .cardImage img {
+  width: 100%;
+  border-radius: 50%;
+}
+.priorityCard .cardTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.priorityCard .cardText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+/* classes */
+
+.classes {
+  width: 1440px;
+  margin: 0 auto;
+  background: url(/Users/yakhyaevs/Desktop/newp|roject/images/background.png);
+}
+.classTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+}
+.classTitle::before {
+  position: absolute;
+  bottom: -10px;
+  left: 548px;
+  content: "Классы";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 119px;
+  z-index: -1;
+  color: #eeeeee;
+}
+.classCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.classCard {
+  width: 301px;
+  height: 530px;
+  background: #5855e7;
+  box-shadow: 0px 0px 35px rgba(17, 17, 17, 0.25);
+  border-radius: 15px;
+  padding: 19px;
+  text-align: center;
+  margin: 30px 50px 30px 50px;
+}
+.classCard_image {
+  width: 265px;
+  height: 251px;
+  border-radius: 3px;
+}
+.classCard_image img {
+  width: 100%;
+  border-radius: 3px;
+}
+.classCard_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #fafbfd;
+  margin-bottom: 19px;
+}
+
+.classCard_subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+.classCard_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.classCard_btn {
+  width: 147px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.classCard_btn:active {
+  transform: scale(0.97);
+}
+/* contact section  */
+
+.contactTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  margin: 80px 0;
+}
+.contactTitle::before {
+  position: absolute;
+  bottom: 0;
+  left: 499px;
+  content: "Связаться";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 119px;
+  z-index: -1;
+  color: #eeeeee;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 1100px;
+  height: 734px;
+  margin: 0 auto;
+
+  background: #5855e7;
+  box-shadow: 0px 0px 35px rgba(51, 51, 51, 0.25);
+  border-radius: 15px;
+}
+
+.contact_subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.contactAdresses {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  list-style: none;
+
+  color: #ffffff;
+}
+.contactAdresses span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  background: #a23ac1;
+  border-radius: 1px;
+}
+.contactAdresses li {
+  width: 424px;
+  margin-bottom: 30px;
+}
+
+.contact_image {
+  width: 485px;
+  height: 338px;
+}
+.contact_image {
+  width: 100%;
+}
+
+.contact_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 8px 0 20px;
+  color: #ffffff;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+.nameInput {
+  width: 400px;
+  height: 52px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.nameInput::placeholder,
+.msgText::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.msgText {
+  width: 400px;
+  height: 262px;
+  font-size: 20px;
+  line-height: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #000000;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.formBtn {
+  width: 197px;
+  height: 52px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 28px;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  align-self: flex-end;
+}

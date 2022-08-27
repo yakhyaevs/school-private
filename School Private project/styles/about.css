@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+  height: 720px;
+  gap: 50px;
+}
+.about_left {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  /* margin-left: 130px; */
+}
+.about_right {
+  flex: 50%;
+}
+.about_image {
+  width: 535px;
+  height: 492px;
+}
+.about_image img {
+  width: 100%;
+}
+.aboutTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 48px;
+  color: #000000;
+}
+.aboutText {
+  width: 584px;
+  height: 398px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
